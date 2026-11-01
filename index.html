@@ -1,274 +1,250 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#081b2b">
-  <title>Revisión narrativa sobre IA y precisión del diagnóstico cardiológico (2021–2026)</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IA y diagnóstico cardiológico · Revisión narrativa 2021–2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header class="site-header">
-  <a class="brand" href="#slide-0"><span class="brand-mark">+</span><span>IA<span class="brand-light"> en Cardiología</span></span></a>
-  <nav aria-label="Navegación de diapositivas">
-    <a href="#slide-0">Portada</a>
-    <a href="#slide-1">Introducción</a>
-    <a href="#slide-3">Metodología</a>
-    <a href="#slide-5">Resultados</a>
-    <a href="#slide-6">Discusión</a>
-    <a href="#slide-7">Fuentes</a>
-  </nav>
-  <div class="header-count"><span id="current-slide">01</span><i>/</i><span id="total-slides">08</span></div>
+<header>
+ <a class="brand" href="#" data-go="0">IA en <span>Cardiología</span></a>
+ <nav aria-label="Secciones">
+  <button data-go="0">Portada</button><button data-go="2">Introducción</button><button data-go="4">Metodología</button><button data-go="6">Resultados</button><button data-go="8">Discusión</button><button data-go="12">Bibliografía</button>
+ </nav>
+ <div class="count"><b id="cur">01</b> / <span id="tot">13</span></div>
 </header>
 
-<main class="deck" id="deck" aria-label="Presentación horizontal">
-  <!-- 00 PORTADA -->
-  <section class="slide slide-cover" id="slide-0" data-title="Portada">
-    <div class="hero-grid"></div>
-    <div class="cover-copy">
-      <p class="eyebrow"><span class="pulse-dot"></span> INTRODUCCIÓN A LA INVESTIGACIÓN · 2026</p>
-      <p class="cover-overline">REVISIÓN NARRATIVA</p>
-      <h1>Revisión narrativa sobre el uso de herramientas de inteligencia artificial y la precisión del diagnóstico cardiológico <em>(2021–2026)</em></h1>
-      <p class="hero-lead">Una mirada a las herramientas utilizadas en cardiología, la evidencia sobre su precisión diagnóstica y los desafíos para su aplicación clínica.</p>
-      <div class="cover-bottom">
-        <span>Inteligencia artificial</span><span>Diagnóstico cardiológico</span><span>Evidencia científica</span>
-      </div>
-      <button class="start-button" data-go="1">Comenzar presentación <b>→</b></button>
-    </div>
-    <div class="cover-visual" aria-label="Ilustración conceptual de corazón y electrocardiograma">
-      <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
-      <div class="heart-card">
-        <img class="cover-img" src="heart-cover.png" alt="Corazón digital con brazo robótico y paneles de ECG e imágenes médicas">
-      </div>
-      <div class="float-tag tag-top">ECG <b>+ IA</b></div>
-      <div class="float-tag tag-bottom">Imágenes cardíacas <b>↗</b></div>
-    </div>
-  </section>
+<main class="deck" id="deck">
 
-  <!-- 01 ESTUDIANTE 1 -->
-  <section class="slide slide-light" id="slide-1" data-title="Introducción">
-    <div class="slide-inner">
-      <div class="speaker-label">Introducción y metodología inicial</div>
-      <p class="section-kicker">01 / CONTEXTO DEL PROBLEMA</p>
-      <div class="two-col intro-slide-grid">
-        <div>
-          <h2 class="slide-title">¿Por qué importa el diagnóstico <em>cardiológico?</em></h2>
-          <p class="lead-dark">Las enfermedades cardiovasculares son la principal causa de muerte en el mundo. Detectarlas de manera temprana y precisa es una prioridad para los sistemas de salud.</p>
-          <p>La cardiología produce datos cuantificables —como electrocardiogramas, ecocardiografías, angiografías y resonancias magnéticas cardíacas— que pueden ser analizados mediante herramientas de inteligencia artificial.</p>
-        </div>
-        <div class="info-panel">
-          <h3>¿Qué busca analizar esta investigación?</h3>
-          <p>La relación entre el uso de herramientas de IA y la precisión del diagnóstico cardiológico en profesionales de la salud, según la evidencia científica publicada entre 2021 y 2026.</p>
-          <div class="research-question">
-            <span>PREGUNTA DE INVESTIGACIÓN</span>
-            ¿Qué evidencia científica existe sobre la relación entre el uso de herramientas de IA y la precisión del diagnóstico cardiológico?
-          </div>
-        </div>
-      </div>
-      <div class="objective-strip">
-        <div><span>OBJETIVO GENERAL</span><b>Analizar la evidencia científica publicada entre 2021 y 2026 mediante una revisión narrativa de la literatura.</b></div>
-        <div><span>OBJETIVOS ESPECÍFICOS</span><b>Identificar herramientas, describir beneficios y analizar resultados de precisión en distintas condiciones cardiovasculares.</b></div>
-      </div>
-      <p class="source-line">Base del planteamiento: Ahmed et al. (2025), Niazai et al. (2025), Patel et al. (2025), Lanzagorta-Ortega et al. (2022).</p>
-    </div>
-  </section>
+<!-- 0 PORTADA -->
+<section class="slide dark cover" data-title="Portada"><div class="in">
+ <div>
+  <h1>Inteligencia artificial y precisión del diagnóstico cardiológico<small>Revisión narrativa de la evidencia publicada entre 2021 y 2026</small></h1>
+  <p>Qué herramientas se usan en cardiología, qué tan precisas son y qué falta resolver antes de llevarlas a la práctica clínica.</p>
+  <div class="meta"><span>Introducción a la Investigación</span><span>EC2 · 2026-2</span><span>Sección 3CB</span></div>
+  <svg class="ecg" viewBox="0 0 440 60" preserveAspectRatio="none" role="img" aria-label="Trazo de electrocardiograma"><path d="M0 32H78L96 32L111 24L126 42L146 6L166 52L185 32H237L253 32L268 24L282 42L302 6L321 52L340 32H440"/></svg>
+  <p class="team">Docente: Diana Soledad Quintanilla Cotaquispe<br>Avila Fierro · Aguirre Vegas · Villar Ato · Sicha Aquise · Palacios Neyra</p>
+  <button class="jump" data-go="1">Comenzar presentación</button>
+ </div>
+ <img src="heart-cover.png" width="692" height="631" alt="Corazón digital sobre una mano robótica, con paneles de electrocardiograma y radiografía de tórax">
+</div></section>
 
-  <!-- 02 APLICACIONES, PARTE DE LA INTRODUCCIÓN -->
-  <section class="slide slide-dark" id="slide-2" data-title="Aplicaciones">
-    <div class="slide-inner">
-      <div class="speaker-label speaker-label-dark">Introducción y metodología inicial</div>
-      <p class="section-kicker light">02 / HERRAMIENTAS QUE SE APLICAN EN CARDIOLOGÍA</p>
-      <div class="section-heading">
-        <h2>¿Cómo utiliza la IA los datos del <em>corazón?</em></h2>
-        <p>Los estudios revisados describen modelos que analizan señales eléctricas, imágenes médicas y datos clínicos para apoyar tareas diagnósticas.</p>
-      </div>
-      <div class="application-grid">
-        <article class="app-card">
-          <div class="app-icon">⌁</div><span class="app-number">01</span>
-          <img class="app-illustration" src="ecg-analysis.svg" alt="Análisis de señal de electrocardiograma con IA">
-          <h3>Electrocardiograma (ECG)</h3>
-          <p>Los algoritmos procesan la actividad eléctrica del corazón e identifican patrones relacionados con fibrilación auricular, arritmias y posibles signos de insuficiencia cardíaca.</p>
-          <div class="mini-wave"><svg viewBox="0 0 260 45"><path d="M0 23 H45 L57 23 L68 13 L80 34 L94 3 L108 41 L121 23 H170 L183 23 L194 13 L206 34 L220 3 L234 41 L246 23 H260"/></svg></div>
-        </article>
-        <article class="app-card">
-          <div class="app-icon">◈</div><span class="app-number">02</span>
-          <img class="app-illustration" src="cardiac-imaging.svg" alt="Imágenes cardíacas analizadas con IA">
-          <h3>Imágenes cardíacas</h3>
-          <p>El aprendizaje profundo puede apoyar la clasificación, detección y segmentación de estructuras en ecocardiografías, tomografías y resonancias magnéticas.</p>
-          <div class="image-chip-row"><span>Ecocardiografía</span><span>Tomografía</span><span>RM</span></div>
-        </article>
-        <article class="app-card">
-          <div class="app-icon">⌘</div><span class="app-number">03</span>
-          <img class="app-illustration" src="clinical-ai.svg" alt="Apoyo a la decisión clínica con IA">
-          <h3>Apoyo a decisiones clínicas</h3>
-          <p>Los sistemas de apoyo a la decisión clínica integran información y ofrecen alertas o sugerencias al profesional. Complementan el juicio médico, no lo sustituyen.</p>
-          <div class="decision-flow"><span>Datos clínicos</span><i>→</i><span>Análisis IA</span><i>→</i><span>Apoyo</span></div>
-        </article>
-      </div>
-      <p class="dark-footnote">Aplicaciones descritas por Ramos-Zaga (2025), Orbea Fernández et al. (2026), Escobar Suarez et al. (2025) y Jeong &amp; Kim (2026).</p>
-    </div>
-  </section>
+<!-- 1 RECORRIDO EN TRES PARTES -->
+<section class="slide dark" data-title="Recorrido"><div class="in">
+ <h2>Un recorrido en tres partes</h2>
+ <p class="sub">La presentación se reparte entre tres expositores. Cada parte tiene su propia etiqueta en la esquina superior de la diapositiva.</p>
+ <div class="grid g3" style="margin-top:18px">
+  <div class="card"><span class="tag">Estudiante 1 · diapositivas 3 a 5</span><h3>Introducción y metodología inicial</h3>
+   <ul><li>Introducción y contexto del tema</li><li>2.1 Estrategia de búsqueda</li><li>2.2 Criterios de inclusión y exclusión</li></ul><button class="jump" data-go="2">Ir a la parte 1</button></div>
+  <div class="card"><span class="tag">Estudiante 2 · diapositivas 6 a 8</span><h3>Metodología restante y resultados</h3>
+   <ul><li>2.3 Proceso de selección</li><li>2.4 Organización y análisis</li><li>2.5 Consideraciones éticas</li><li>Resultados y métricas de los estudios</li></ul><button class="jump" data-go="5">Ir a la parte 2</button></div>
+  <div class="card"><span class="tag">Estudiante 3 · diapositivas 9 a 12</span><h3>Discusión y cierre</h3>
+   <ul><li>Influencia de la IA en la práctica médica</li><li>Beneficios y limitaciones</li><li>Interpretación de los hallazgos</li><li>Conclusión</li></ul><button class="jump" data-go="8">Ir a la parte 3</button></div>
+ </div>
+</div></section>
 
-  <!-- 03 METODOLOGIA INICIAL -->
-  <section class="slide slide-light" id="slide-3" data-title="Metodología inicial">
-    <div class="slide-inner">
-      <div class="speaker-label">Introducción y metodología inicial</div>
-      <p class="section-kicker">03 / METODOLOGÍA · PRIMERA PARTE</p>
-      <h2 class="slide-title">¿Cómo se buscó y seleccionó la <em>evidencia?</em></h2>
-      <p class="slide-intro">El estudio se desarrolló como una revisión narrativa. Se eligió este enfoque porque los estudios presentan diferencias en algoritmos, poblaciones y métricas, lo que dificulta una síntesis cuantitativa directa.</p>
-      <div class="method-columns">
-        <article class="method-box">
-          <span class="method-number">2.1</span>
-          <h3>Estrategia de búsqueda</h3>
-          <p>Se consultaron bases de datos académicas: PubMed, Scopus, SciELO, Dialnet y Google Académico, priorizando revistas indexadas y revisadas por pares.</p>
-          <div class="database-row"><span>PubMed</span><span>Scopus</span><span>SciELO</span><span>Dialnet</span><span>Google Académico</span></div>
-          <p>Se combinaron términos en español e inglés mediante operadores AND y OR, por ejemplo:</p>
-          <ul class="compact-list">
-            <li>“inteligencia artificial” AND “diagnóstico cardiológico”</li>
-            <li>“machine learning” AND “cardiology”</li>
-            <li>“deep learning” AND “electrocardiogram”</li>
-          </ul>
-          <strong class="date-emphasis">Enero de 2021 – septiembre de 2026</strong>
-        </article>
-        <article class="method-box">
-          <span class="method-number">2.2</span>
-          <h3>Criterios de inclusión y exclusión</h3>
-          <div class="criteria-split">
-            <div><b class="included">Se incluyeron</b><p>Artículos originales, revisiones sistemáticas y metaanálisis indexados, en español o inglés, sobre IA aplicada al diagnóstico cardiovascular y que reportaran métricas de precisión.</p></div>
-            <div><b class="excluded">Se excluyeron</b><p>Estudios solo de tratamiento o pronóstico sin componente diagnóstico, editoriales sin evidencia empírica, duplicados y textos completos no disponibles.</p></div>
-          </div>
-          <p class="small-note">Métricas consideradas: sensibilidad, especificidad, área bajo la curva ROC y exactitud.</p>
-        </article>
-      </div>
-    </div>
-  </section>
+<!-- 2 INTRODUCCIÓN Y CONTEXTO -->
+<section class="slide light" data-title="Introducción"><div class="in">
+ <span class="who">Estudiante 1 · Introducción y contexto</span>
+ <h2>Un diagnóstico a tiempo cambia el desenlace</h2>
+ <div class="grid g2">
+  <div>
+   <p style="font-size:18px;line-height:1.5">Las enfermedades cardiovasculares son la principal causa de muerte en el mundo y pesan más en países de ingresos bajos y medios, incluida América Latina (Ahmed et al., 2025; Niazai et al., 2025).</p>
+   <p>Gran parte de la mortalidad prematura podría evitarse con detección temprana. La IA interesa porque sus fuentes de datos (electrocardiograma, ecocardiografía, angiografía coronaria y resonancia cardíaca) son muy cuantificables (Patel et al., 2025).</p>
+  </div>
+  <div>
+   <p>Los algoritmos de aprendizaje automático y profundo detectan patrones sutiles y abren la pregunta de si pueden igualar o superar a los profesionales (Lanzagorta-Ortega et al., 2022).</p>
+   <p><strong>Vacío de investigación:</strong> predominan los estudios retrospectivos con poca validación externa, las métricas son heterogéneas, existe el problema de “caja negra” y las poblaciones latinoamericanas casi no están representadas (Orbea Fernández et al., 2026; Ramos-Zaga, 2025).</p>
+  </div>
+ </div>
+ <div class="stats">
+  <div class="stat"><b>0,804–0,991</b><span>AUC en 14 estudios de alta calidad, 2020–2025 (Niazai et al., 2025)</span></div>
+  <div class="stat"><b>Más de 100</b><span>estudios sobre ECG e IA, 2019–2025 (Velandia et al., 2025)</span></div>
+  <div class="stat"><b>98,30 % y 96,99 %</b><span>sensibilidad y especificidad en insuficiencia cardíaca (Orbea Fernández et al., 2026)</span></div>
+ </div>
+</div></section>
 
-  <!-- 04 METODOLOGIA FINAL -->
-  <section class="slide slide-dark" id="slide-4" data-title="Metodología final">
-    <div class="slide-inner">
-      <div class="speaker-label speaker-label-dark">Metodología final y resultados</div>
-      <p class="section-kicker light">04 / METODOLOGÍA · SEGUNDA PARTE</p>
-      <h2 class="slide-title title-white">Del conjunto de artículos al <em>análisis.</em></h2>
-      <div class="method-final-grid">
-        <article class="method-final-card">
-          <span>2.3</span><h3>Proceso de selección</h3>
-          <ol><li>Revisión de títulos y resúmenes para descartar publicaciones no relacionadas.</li><li>Lectura a texto completo para verificar los criterios de inclusión.</li></ol>
-          <p>La selección se realizó colaborativamente para reducir el sesgo individual.</p>
-        </article>
-        <article class="method-final-card">
-          <span>2.4</span><h3>Organización y análisis</h3>
-          <p>De cada estudio se registró:</p>
-          <ul><li>Herramienta de IA utilizada.</li><li>Condición cardiovascular estudiada.</li><li>Fuente de datos médicos.</li><li>Métricas diagnósticas y limitaciones.</li></ul>
-          <p>Luego se realizó un análisis descriptivo e integrador para identificar coincidencias y contrastes.</p>
-        </article>
-        <article class="method-final-card">
-          <span>2.5</span><h3>Consideraciones éticas</h3>
-          <p>Al utilizar fuentes secundarias de acceso público, no se requirió aprobación de un comité de ética institucional.</p>
-          <p>Se citaron las fuentes según APA 7.ª edición y se dejó constancia del uso complementario de IA como apoyo conceptual y de organización de la búsqueda.</p>
-        </article>
-      </div>
-      <img class="wide-illustration" src="method-flow.svg" alt="Flujo metodológico: búsqueda, filtrado, organización y análisis">
-      <div class="method-summary"><b>En síntesis:</b> se buscó literatura, se filtró según criterios, se organizó la evidencia y se compararon los hallazgos sin asumir que todas las métricas fueran directamente equivalentes.</div>
-    </div>
-  </section>
+<!-- 3 PREGUNTA Y OBJETIVOS -->
+<section class="slide light" data-title="Objetivos"><div class="in">
+ <span class="who">Estudiante 1 · Introducción y contexto</span>
+ <h2>Pregunta y objetivos de la revisión</h2>
+ <p class="question">¿Qué evidencia científica existe sobre la relación entre el uso de herramientas de inteligencia artificial y la precisión del diagnóstico cardiológico en profesionales de la salud, según los estudios publicados entre 2021 y 2026?</p>
+ <div class="grid g3">
+  <div class="card"><span class="tag">Objetivo general</span><p>Analizar la evidencia científica publicada entre 2021 y 2026 mediante una revisión narrativa de la literatura.</p></div>
+  <div class="card"><span class="tag">Objetivos específicos a y b</span><p>(a) Identificar los tipos de herramientas de IA aplicadas al diagnóstico cardiológico. (b) Describir los beneficios reportados sobre la precisión diagnóstica.</p></div>
+  <div class="card"><span class="tag">Objetivo específico c</span><p>Analizar la precisión diagnóstica reportada en arritmias, insuficiencia cardíaca y enfermedad coronaria.</p></div>
+ </div>
+ <p style="margin-top:14px;max-width:80ch"><strong>Importancia:</strong> organiza el conocimiento actual de un tema que avanza rápido y señala beneficios, limitaciones y vacíos de validación. La IA no se plantea como reemplazo del criterio médico, sino como apoyo.</p>
+</div></section>
 
-  <!-- 05 RESULTADOS -->
-  <section class="slide slide-light" id="slide-5" data-title="Resultados">
-    <div class="slide-inner">
-      <div class="speaker-label">Metodología final y resultados</div>
-      <p class="section-kicker">05 / RESULTADOS DE LA REVISIÓN</p>
-      <div class="section-heading evidence-heading">
-        <h2>¿Qué encontraron los <em>estudios?</em></h2>
-        <p>Las herramientas identificadas incluyen aprendizaje automático tradicional, aprendizaje profundo y sistemas de apoyo a decisiones clínicas.</p>
-      </div>
-      <div class="result-types">
-        <div><b>Aprendizaje automático</b><span>CART · SVM · Random Forest · Gradient Boosting · KNN</span></div>
-        <div><b>Aprendizaje profundo</b><span>CNN · U-Net · DenseResNet · LSTM · Vision Transformers</span></div>
-        <div><b>Apoyo a decisiones clínicas</b><span>AI-CDSS y modelos que integran datos de pruebas e historias clínicas.</span></div>
-      </div>
-      <h3 class="results-subtitle">Métricas reportadas en investigaciones específicas</h3>
-      <div class="metrics-grid">
-        <article class="metric-card"><p class="metric-label">Insuficiencia cardíaca</p><div class="metric-value">98,30<span>%</span></div><p class="metric-title">Sensibilidad combinada</p><div class="metric-track"><span style="width:98.3%"></span></div><p class="metric-detail">Análisis de ECG y variabilidad de la frecuencia cardíaca.</p><p class="metric-source">Orbea Fernández et al. (2026)</p></article>
-        <article class="metric-card"><p class="metric-label">Insuficiencia cardíaca</p><div class="metric-value">96,99<span>%</span></div><p class="metric-title">Especificidad combinada</p><div class="metric-track"><span style="width:96.99%"></span></div><p class="metric-detail">Resultado combinado reportado en 14 estudios.</p><p class="metric-source">Orbea Fernández et al. (2026)</p></article>
-        <article class="metric-card metric-card-accent"><p class="metric-label">Fibrilación auricular</p><div class="metric-value">0,99<span> AUC</span></div><p class="metric-title">AUROC máximo reportado</p><div class="metric-track"><span style="width:99%"></span></div><p class="metric-detail">Predicción mediante enfoques diagnósticos multimodales.</p><p class="metric-source">Ramos-Zaga (2025)</p></article>
-      </div>
-      <div class="extra-results">
-        <div><b>97,98 %</b><span>Precisión en clasificación de isquemia miocárdica mediante SVM.</span></div>
-        <div><b>0,9284</b><span>Coeficiente Dice en segmentación ecocardiográfica.</span></div>
-        <div><b>98,4 %</b><span>Exactitud al combinar tomografía, resonancia y ecocardiograma.</span></div>
-      </div>
-      <img class="wide-illustration" src="results-chart.svg" alt="Gráfico resumen de resultados">
-      <p class="caution"><strong>Cómo interpretar:</strong> sensibilidad identifica correctamente casos con la condición; especificidad identifica correctamente a quienes no la presentan; AUC mide capacidad discriminativa. Las cifras provienen de estudios y tareas diferentes: no deben compararse como si fueran un único experimento.</p>
-    </div>
-  </section>
+<!-- 4 METODOLOGÍA 2.1 y 2.2 -->
+<section class="slide light" data-title="Metodología inicial"><div class="in">
+ <span class="who">Estudiante 1 · Metodología inicial</span>
+ <h2>Cómo se buscó y seleccionó la evidencia</h2>
+ <p class="sub" style="margin-bottom:14px">Revisión narrativa y no metaanálisis: los estudios difieren en algoritmos, poblaciones y métricas, lo que impide una síntesis cuantitativa directa.</p>
+ <div class="grid g2">
+  <div class="card"><span class="tag">2.1 Estrategia de búsqueda</span>
+   <div class="chips"><span>PubMed</span><span>Scopus</span><span>SciELO</span><span>Dialnet</span><span>Google Académico</span></div>
+   <p>Términos en español e inglés con operadores AND y OR, por ejemplo “machine learning” AND “cardiology” o “deep learning” AND “electrocardiogram”.</p>
+   <p><strong>Periodo:</strong> enero de 2021 a septiembre de 2026.</p></div>
+  <div class="card"><span class="tag">2.2 Criterios de inclusión y exclusión</span>
+   <p><strong>Se incluyeron</strong> artículos originales, revisiones sistemáticas y metaanálisis indexados, en español o inglés, sobre IA en diagnóstico cardiovascular y con métricas de precisión.</p>
+   <p><strong>Se excluyeron</strong> estudios solo de tratamiento o pronóstico, editoriales sin evidencia propia, duplicados y textos completos no disponibles.</p></div>
+ </div>
+</div></section>
 
-  <!-- 06 DISCUSION -->
-  <section class="slide slide-dark" id="slide-6" data-title="Discusión">
-    <div class="slide-inner">
-      <div class="speaker-label speaker-label-dark">Discusión</div>
-      <p class="section-kicker light">06 / INTERPRETACIÓN DE LOS HALLAZGOS</p>
-      <h2 class="slide-title title-white">¿Qué significan estos resultados para la <em>cardiología?</em></h2>
-      <div class="discussion-grid">
-        <article class="discussion-card">
-          <span class="discussion-index">COINCIDENCIAS</span>
-          <h3>Desempeño alto en tareas cardiológicas</h3>
-          <p>Orbea Fernández, Ramos-Zaga y Velandia coinciden en reportar resultados elevados, especialmente en ECG, imágenes cardíacas y señales fisiológicas. La IA puede reconocer patrones sutiles que complementan la evaluación clínica.</p>
-        </article>
-        <article class="discussion-card">
-          <span class="discussion-index">DIFERENCIAS</span>
-          <h3>El rendimiento depende del contexto</h3>
-          <p>Los resultados varían según la herramienta, la fuente de datos y la enfermedad. Jeong y Kim describen mayores beneficios en radiología e imagenología que en consultas generales o urgencias, donde el contexto es más complejo.</p>
-        </article>
-        <article class="discussion-card">
-          <span class="discussion-index">LIMITACIONES</span>
-          <h3>La precisión no garantiza generalización</h3>
-          <p>Predominan estudios retrospectivos, cohortes reducidas y métricas heterogéneas. La falta de validación externa, la “caja negra”, el sesgo de automatización y la baja representación latinoamericana limitan la aplicación clínica.</p>
-        </article>
-        <article class="discussion-card discussion-future">
-          <span class="discussion-index">PERSPECTIVA FUTURA</span>
-          <h3>¿Qué se necesita para avanzar?</h3>
-          <p>Modelos explicables (LIME, Grad-CAM y SHAP), validaciones en poblaciones diversas, mejor gobernanza de datos, interoperabilidad y regulación. La IA debe integrarse en los flujos hospitalarios con supervisión profesional.</p>
-        </article>
-      </div>
-      <img class="wide-illustration" src="discussion.svg" alt="Esquema de la discusión de resultados">
-      <div class="closing-statement">
-        <span>IDEA CENTRAL</span>
-        <h3>La IA puede ayudar a detectar. <em>El criterio médico ayuda a decidir.</em></h3>
-        <p>Su valor depende de la calidad de la evidencia, la validación en contextos reales y una implementación ética y clínicamente rigurosa.</p>
-      </div>
-    </div>
-  </section>
+<!-- 5 METODOLOGÍA 2.3, 2.4, 2.5 -->
+<section class="slide dark" data-title="Metodología restante"><div class="in">
+ <span class="who">Estudiante 2 · Metodología restante</span>
+ <h2>Del conjunto de artículos al análisis</h2>
+ <div class="grid g3">
+  <div class="card"><span class="tag">2.3 Proceso de selección</span><p>Primero, revisión de títulos y resúmenes para descartar lo no relacionado. Luego, lectura a texto completo para verificar los criterios.</p><p>El equipo aplicó los criterios en conjunto para reducir el sesgo individual.</p></div>
+  <div class="card"><span class="tag">2.4 Organización y análisis</span><p>De cada estudio se registró:</p><ul><li>herramienta de IA</li><li>condición cardiovascular</li><li>fuente de datos</li><li>métricas y limitaciones</li></ul><p style="margin-top:8px">Después, un análisis descriptivo e integrador de coincidencias y contrastes.</p></div>
+  <div class="card"><span class="tag">2.5 Consideraciones éticas</span><p>Son fuentes secundarias de acceso público, así que no se requirió comité de ética.</p><p>Se citó en APA 7.ª edición y se dejó constancia del uso complementario de IA como apoyo en la revisión conceptual y la organización de la búsqueda, según los lineamientos del curso.</p></div>
+ </div>
+</div></section>
 
-  <!-- 07 BIBLIOGRAFIA -->
-  <section class="slide slide-light" id="slide-7" data-title="Bibliografía">
-    <div class="slide-inner">
-      <p class="section-kicker">07 / REFERENCIAS</p>
-      <h2 class="slide-title">La evidencia tiene <em>fuentes.</em></h2>
-      <p class="slide-intro">Referencias citadas en el trabajo de investigación. Selección de las diez publicaciones que sustentan la revisión.</p>
-      <div class="reference-grid">
-        <a href="https://doi.org/10.7759/cureus.92792" target="_blank" rel="noopener"><b>Ahmed et al. (2025)</b><span>IA en monitorización hemodinámica no invasiva y cardiología.</span><i>↗</i></a>
-        <a href="https://doi.org/10.3390/healthcare12040481" target="_blank" rel="noopener"><b>Gala et al. (2024)</b><span>IA, resultados del paciente y futuro de la atención cardiológica.</span><i>↗</i></a>
-        <a href="https://www.scielo.org.mx/scielo.php?pid=s0016-38132022001100017&script=sci_arttext" target="_blank" rel="noopener"><b>Lanzagorta-Ortega et al. (2022)</b><span>Inteligencia artificial en medicina: presente y futuro.</span><i>↗</i></a>
-        <a href="https://doi.org/10.1186/s12872-025-05327-x" target="_blank" rel="noopener"><b>Niazai et al. (2025)</b><span>Aplicaciones clínicas y desempeño diagnóstico de IA cardiovascular.</span><i>↗</i></a>
-        <a href="https://doi.org/10.37135/ee.04.26.09" target="_blank" rel="noopener"><b>Orbea Fernández et al. (2026)</b><span>Modelos de IA para el diagnóstico de insuficiencia cardíaca.</span><i>↗</i></a>
-        <a href="https://doi.org/10.1097/MS9.0000000000004607" target="_blank" rel="noopener"><b>Patel et al. (2025)</b><span>IA en cardiología: consideraciones éticas y desafíos.</span><i>↗</i></a>
-        <a href="https://doi.org/10.47487/apcyccv.v6i4.532" target="_blank" rel="noopener"><b>Ramos-Zaga (2025)</b><span>IA y enfoques diagnósticos multimodales en enfermedad cardiovascular.</span><i>↗</i></a>
-        <a href="https://revistas.uta.edu.ec/erevista/index.php/medi/article/view/2910/3251" target="_blank" rel="noopener"><b>Escobar Suarez et al. (2025)</b><span>Inteligencia artificial y evolución del diagnóstico médico.</span><i>↗</i></a>
-        <a href="https://www.mdpi.com/2076-3417/16/10/5146" target="_blank" rel="noopener"><b>Jeong &amp; Kim (2026)</b><span>Sistemas de apoyo clínico basados en IA y precisión diagnóstica.</span><i>↗</i></a>
-        <a href="https://doi.org/10.3390/bioengineering12111248" target="_blank" rel="noopener"><b>Velandia et al. (2025)</b><span>IA y electrocardiografía para diagnóstico cardiovascular.</span><i>↗</i></a>
-      </div>
-      <div class="references-end">Fin de la presentación <span>♥</span></div>
-    </div>
-  </section>
+<!-- 6 RESULTADOS: HERRAMIENTAS Y BENEFICIOS -->
+<section class="slide dark" data-title="Resultados: herramientas"><div class="in">
+ <span class="who">Estudiante 2 · Resultados</span>
+ <h2>Qué herramientas se usan y qué aportan</h2>
+ <div class="grid g2">
+  <div class="card"><span class="tag">Objetivo a · Tipos de herramientas</span>
+   <ul>
+    <li><strong>Aprendizaje automático:</strong> CART, SVM, Random Forest, Gradient Boosting y KNN (Ramos-Zaga, 2025).</li>
+    <li><strong>Aprendizaje profundo:</strong> CNN como U-Net y DenseResNet, LSTM y Vision Transformers (Ramos-Zaga, 2025).</li>
+    <li><strong>AI-CDSS:</strong> ResNet-50, DenseNet-121, EfficientNet-B7 y CNN 3D sobre historias clínicas (Jeong &amp; Kim, 2026).</li>
+    <li><strong>IA explicable:</strong> LIME, Grad-CAM y SHAP (Orbea Fernández et al., 2026).</li>
+   </ul></div>
+  <div class="card"><span class="tag">Objetivo b · Beneficios en la precisión</span>
+   <ul>
+    <li>Detección precoz de disfunción ventricular antes de los síntomas (Orbea Fernández et al., 2026).</li>
+    <li>Mejor calidad de las pruebas y menos tiempo de adquisición e interpretación (Escobar Suarez et al., 2025).</li>
+    <li>Menor variabilidad interobservador y mejor estratificación del riesgo (Ramos-Zaga, 2025).</li>
+    <li>Mayor exactitud del médico con AI-CDSS en ensayos aleatorizados (Jeong &amp; Kim, 2026).</li>
+   </ul></div>
+ </div>
+</div></section>
+
+<!-- 7 RESULTADOS: MÉTRICAS -->
+<section class="slide light" data-title="Resultados: métricas"><div class="in">
+ <span class="who">Estudiante 2 · Resultados y métricas</span>
+ <h2>Objetivo c: precisión diagnóstica reportada</h2>
+ <div class="grid g2">
+  <div class="chart"><h3>Métricas en porcentaje</h3><p>Escala de 0 a 100 %.</p>
+   <div class="bar"><span>Sensibilidad combinada<small>Insuficiencia cardíaca · Orbea Fernández</small></span><div class="bt"><i style="width:98.3%"></i></div><b>98,30 %</b></div>
+   <div class="bar"><span>Especificidad combinada<small>Insuficiencia cardíaca · Orbea Fernández</small></span><div class="bt"><i style="width:96.99%"></i></div><b>96,99 %</b></div>
+   <div class="bar"><span>SVM en isquemia<small>Ramos-Zaga</small></span><div class="bt"><i style="width:97.98%"></i></div><b>97,98 %</b></div>
+   <div class="bar"><span>TC + RM + eco<small>Exactitud multimodal · Ramos-Zaga</small></span><div class="bt"><i style="width:98.4%"></i></div><b>98,4 %</b></div>
+   <div class="bar"><span>Auscultación digital<small>Valvulopatías · mínimo reportado</small></span><div class="bt"><i style="width:94.1%"></i></div><b>&gt; 94,1 %</b></div>
+   <div class="bar"><span>Biomarcadores<small>Modelos ensemble · mínimo reportado</small></span><div class="bt"><i style="width:92.5%"></i></div><b>&gt; 92,5 %</b></div>
+   <div class="axis"><span></span><div><span>0</span><span>25</span><span>50</span><span>75</span><span>100 %</span></div><span></span></div>
+  </div>
+  <div>
+   <div class="chart"><h3>Métricas de 0 a 1</h3><p>AUROC, AUC y coeficiente Dice.</p>
+    <div class="bar"><span>AUROC máximo<small>Fibrilación auricular · Ramos-Zaga</small></span><div class="bt"><i class="r" style="width:99%"></i></div><b>0,99</b></div>
+    <div class="bar"><span>Coeficiente Dice<small>Segmentación eco · Ramos-Zaga</small></span><div class="bt"><i class="r" style="width:92.84%"></i></div><b>0,9284</b></div>
+    <div class="bar"><span>AUC disfunción sistólica<small>Ventrículo izquierdo · Orbea Fernández</small></span><div class="bt"><i class="r" style="left:85%;width:9%"></i></div><b>0,85–0,94</b></div>
+    <div class="bar"><span>AUROC ensemble<small>Biomarcadores y proteómica</small></span><div class="bt"><i class="r" style="width:78.5%"></i></div><b>0,785</b></div>
+    <div class="axis"><span></span><div><span>0</span><span>0,25</span><span>0,5</span><span>0,75</span><span>1</span></div><span></span></div>
+   </div>
+   <p class="note"><strong>Cómo leerlo:</strong> sensibilidad es detectar a quien tiene la condición; especificidad, descartar a quien no la tiene; AUC, distinguir entre ambos. Son estudios distintos, no un solo experimento.</p>
+  </div>
+ </div>
+</div></section>
+
+<!-- 8 INFLUENCIA EN LA PRÁCTICA MÉDICA -->
+<section class="slide light" data-title="Influencia en la práctica médica"><div class="in">
+ <span class="who">Estudiante 3 · Influencia de la IA en la práctica médica</span>
+ <h2>La IA complementa el juicio del profesional</h2>
+ <div class="grid g2">
+  <div>
+   <p style="font-size:17px;line-height:1.5">Con apoyo de AI-CDSS en tiempo real, los médicos mejoraron de forma significativa su exactitud diagnóstica en ensayos aleatorizados (Jeong &amp; Kim, 2026).</p>
+   <p>En cardiología, el desempeño es alto con electrocardiogramas, imágenes cardíacas y señales fisiológicas, y la IA puede detectar patrones que una evaluación convencional pasaría por alto (Orbea Fernández et al., 2026; Ramos-Zaga, 2025; Velandia et al., 2025).</p>
+   <p>Los dispositivos portátiles facilitan el cribado en atención primaria y las técnicas de explicabilidad aumentan la confianza del profesional en la decisión asistida.</p>
+  </div>
+  <div class="chart"><h3>El beneficio cambia según la especialidad</h3><p>Diferencia media estandarizada (SMD) con AI-CDSS. Jeong &amp; Kim (2026).</p>
+   <div class="bar"><span>Radiología e imagenología torácica</span><div class="bt"><i style="left:63.5%;width:30.2%"></i></div><b>0,381–0,562</b></div>
+   <div class="bar"><span>Medicina general</span><div class="bt"><i style="width:3.7%"></i></div><b>0,022</b></div>
+   <div class="bar"><span>Medicina de urgencias</span><div class="bt"><i style="width:1.8%"></i></div><b>0,011</b></div>
+   <div class="axis"><span></span><div><span>0</span><span>0,15</span><span>0,3</span><span>0,45</span><span>0,6</span></div><span></span></div>
+  </div>
+ </div>
+</div></section>
+
+<!-- 9 BENEFICIOS Y LIMITACIONES -->
+<section class="slide dark" data-title="Beneficios y limitaciones"><div class="in">
+ <span class="who">Estudiante 3 · Beneficios y limitaciones</span>
+ <h2>Qué gana la cardiología y qué falta resolver</h2>
+ <div class="grid g2">
+  <div class="card"><span class="tag">Beneficios</span>
+   <ul>
+    <li>Detección precoz y subclínica de patologías complejas.</li>
+    <li>Menos tiempo de adquisición e interpretación, y menos sobrecarga laboral.</li>
+    <li>Menor variabilidad interobservador.</li>
+    <li>Cribado poblacional en atención primaria con dispositivos portátiles.</li>
+   </ul></div>
+  <div class="card"><span class="tag">Limitaciones</span>
+   <ul>
+    <li>Caída del rendimiento en validación externa (Ramos-Zaga, 2025).</li>
+    <li>Estudios retrospectivos, cohortes reducidas y métricas heterogéneas (Orbea Fernández et al., 2026).</li>
+    <li>Sesgo de automatización y ensayos concentrados en Asia Oriental (Jeong &amp; Kim, 2026).</li>
+    <li>Caja negra, poca representación latinoamericana, gobernanza de datos e interoperabilidad (Escobar Suarez et al., 2025).</li>
+   </ul></div>
+ </div>
+</div></section>
+
+<!-- 10 INTERPRETACIÓN DE LOS HALLAZGOS -->
+<section class="slide light" data-title="Interpretación de los hallazgos"><div class="in">
+ <span class="who">Estudiante 3 · Interpretación de los hallazgos</span>
+ <h2>Alto desempeño, pero dependiente del contexto</h2>
+ <div class="grid g3">
+  <div class="card"><span class="tag">Similitudes</span><p>Orbea Fernández, Ramos-Zaga y Velandia coinciden en un desempeño alto en ECG, imágenes cardíacas y señales fisiológicas.</p></div>
+  <div class="card"><span class="tag">Diferencias</span><p>Los resultados varían según la herramienta, la fuente de datos y la enfermedad. Los datos objetivos (ECG, eco, tomografía, resonancia) rinden más que los contextos clínicos complejos, así que no todos los modelos sirven igual en todas las patologías.</p></div>
+  <div class="card"><span class="tag">Cautela</span><p>Predominan los estudios retrospectivos con cohortes reducidas, y el desempeño puede bajar fuera de condiciones controladas (Niazai et al., 2025). Las cifras altas deben leerse con cuidado antes de llevarlas a la práctica clínica.</p></div>
+ </div>
+ <p class="note" style="margin-top:16px"><strong>Contexto peruano y latinoamericano:</strong> la baja representación de estas poblaciones en los datos de entrenamiento puede sesgar los modelos y afectar su desempeño.</p>
+</div></section>
+
+<!-- 11 CONCLUSIÓN -->
+<section class="slide dark" data-title="Conclusión"><div class="in">
+ <span class="who">Estudiante 3 · Conclusión</span>
+ <h2>Hacia dónde avanzar</h2>
+ <div class="grid g3">
+  <div class="card"><span class="tag">Explicabilidad</span><p>Modelos con LIME, Grad-CAM y SHAP que muestren el razonamiento del algoritmo y aumenten la confianza (Orbea Fernández et al., 2026).</p></div>
+  <div class="card"><span class="tag">Validación</span><p>Validaciones externas en poblaciones diversas, con mayor presencia latinoamericana.</p></div>
+  <div class="card"><span class="tag">Implementación</span><p>Integración en los flujos hospitalarios, con gobernanza de datos, interoperabilidad y regulación (Escobar Suarez et al., 2025).</p></div>
+ </div>
+ <div class="big"><h3>La IA puede ayudar a detectar. El criterio médico decide.</h3><p style="margin:8px 0 0">Es un instrumento complementario que apoya la detección temprana, reduce la variabilidad interobservador y mejora la precisión, siempre que se valide bien y se use con criterios éticos y clínicos rigurosos.</p></div>
+</div></section>
+
+<!-- 12 BIBLIOGRAFÍA -->
+<section class="slide light" data-title="Bibliografía"><div class="in">
+ <h2>Bibliografía</h2>
+ <ol class="refs">
+  <li>Ahmed, A. E., Al-Kinani, S. M., Alshammari, A. M., Alharbi, R. F., Alaydaa, G. S., Alanazi, R. M., Sharif, M. A., Refaei, J. N., Abu Summah, H. N., Altubayqi, D. H., Alhubail, S. M., Bannan, A. M., &amp; Hurubi, A. Y. (2025). Artificial intelligence in non-invasive hemodynamic monitoring: A systematic review of accuracy, effectiveness, and clinical applicability in cardiology. <em>Cureus, 17</em>(9). <a href="https://doi.org/10.7759/cureus.92792">https://doi.org/10.7759/cureus.92792</a></li>
+  <li>Escobar Suarez, C. A., Abarca Tenemasa, R. M., López Salazar, M. I., &amp; Carrazco Flores, D. C. (2025). Inteligencia artificial, la evolución en el diagnóstico médico. <em>MEDICIENCIAS UTA, 9</em>(3), 48-54. <a href="https://revistas.uta.edu.ec/erevista/index.php/medi/article/view/2910/3251">https://revistas.uta.edu.ec/erevista/index.php/medi/article/view/2910/3251</a></li>
+  <li>Gala, D., Behl, H., Shah, M., &amp; Makaryus, A. N. (2024). The role of artificial intelligence in improving patient outcomes and future of healthcare delivery in cardiology: A narrative review of the literature. <em>Healthcare, 12</em>(4), 481. <a href="https://doi.org/10.3390/healthcare12040481">https://doi.org/10.3390/healthcare12040481</a></li>
+  <li>Jeong, M.-A., &amp; Kim, S.-D. (2026). Impact of AI-based clinical decision support systems on diagnostic accuracy among healthcare professionals: A systematic review and meta-analysis of randomized controlled trials. <em>Applied Sciences, 16</em>(10), 5146. <a href="https://www.mdpi.com/2076-3417/16/10/5146">https://www.mdpi.com/2076-3417/16/10/5146</a></li>
+  <li>Lanzagorta-Ortega, D., Carrillo-Pérez, D. L., &amp; Carrillo-Esper, R. (2022). Inteligencia artificial en medicina: Presente y futuro. <em>Gaceta Médica de México, 158</em>(Supl. 1), 17-21. <a href="https://www.scielo.org.mx/scielo.php?pid=s0016-38132022001100017&amp;script=sci_arttext">https://www.scielo.org.mx/scielo.php?pid=s0016-38132022001100017&amp;script=sci_arttext</a></li>
+  <li>Niazai, A., Jamil, H., Hameed, M., Sheikh, S., Nisar, M. R., et al. (2025). Artificial intelligence in cardiovascular diagnostics: A systematic review and descriptive analysis of clinical applications and diagnostic performance. <em>BMC Cardiovascular Disorders, 25</em>, 849. <a href="https://doi.org/10.1186/s12872-025-05327-x">https://doi.org/10.1186/s12872-025-05327-x</a></li>
+  <li>Orbea Fernández, A. F., Alvarado Flores, C. M., Alvarado Flores, C. I., &amp; Vázquez Moreno, C. M. (2026). Modelos de inteligencia artificial para el diagnóstico de la insuficiencia cardíaca: Una revisión sistemática de la literatura. <em>Revista Eugenio Espejo, 20</em>(2), 142-160. <a href="https://doi.org/10.37135/ee.04.26.09">https://doi.org/10.37135/ee.04.26.09</a></li>
+  <li>Patel, D., Kantamneni, R., David John, J., Patel, T., Shukla, A., Salma, A., &amp; Anand, N. (2025). Artificial intelligence in cardiology: An updated systematic review with ethical considerations and challenges in implementing artificial intelligence models. <em>Annals of Medicine and Surgery</em>. <a href="https://doi.org/10.1097/MS9.0000000000004607">https://doi.org/10.1097/MS9.0000000000004607</a></li>
+  <li>Ramos-Zaga, F. A. (2025). Inteligencia artificial y enfoques diagnósticos multimodales en enfermedad cardiovascular. <em>Archivos Peruanos de Cardiología y Cirugía Cardiovascular, 6</em>(4), 230-238. <a href="https://doi.org/10.47487/apcyccv.v6i4.532">https://doi.org/10.47487/apcyccv.v6i4.532</a></li>
+  <li>Velandia, H., Pardo, A., Vera, M. I., &amp; Vera, M. (2025). Systematic review of artificial intelligence and electrocardiography for cardiovascular disease diagnosis. <em>Bioengineering, 12</em>(11), 1248. <a href="https://doi.org/10.3390/bioengineering12111248">https://doi.org/10.3390/bioengineering12111248</a></li>
+ </ol>
+</div></section>
+
 </main>
 
-<div class="deck-controls" aria-label="Controles de presentación">
-  <button id="prev-slide" aria-label="Diapositiva anterior" disabled>←</button>
-  <div class="progress-track"><span id="progress-fill"></span></div>
-  <button id="next-slide" aria-label="Siguiente diapositiva">→</button>
+<div class="controls">
+ <button id="prev" aria-label="Diapositiva anterior">←</button>
+ <div class="track"><i id="fill"></i></div>
+ <button id="next" aria-label="Diapositiva siguiente">→</button>
 </div>
 <script src="script.js"></script>
 </body>
